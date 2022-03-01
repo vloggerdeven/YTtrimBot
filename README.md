@@ -1,4 +1,4 @@
-# Inline-YouTube-Trim-Bot
+# YTtrimBot
  Telegram bot to trim and download youtube videos
 
 ## ©DK BOTx
