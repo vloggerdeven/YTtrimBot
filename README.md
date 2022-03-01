@@ -14,7 +14,7 @@ Demo - [YouTubeBot](https://telegram.dog/trimytbot)
 ## To Do
 - [ ] Supports Selection of qualities / formats.
 
-Feel Free To Contribute 😬
+Feel Free To Contribute 
 
 ## License
 [![GNU Affero General Public License 3.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)  
