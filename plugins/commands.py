@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (C) @subinps
+# Copyright (C) @vloggerdeven
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -20,10 +20,10 @@ from utils import TG_SUCKS, FIX_TG_SUCKS
 async def start(bot, message):
     buttons = [
             [
-                InlineKeyboardButton('Search Here', switch_inline_query_current_chat=""),
+                InlineKeyboardButton('SEARCH HERE', switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton('Updates', url="https://t.me/subin_works")
+                InlineKeyboardButton('UPDATES', url="https://t.me/dk_botx")
             ]
         ]
     if len(message.command) > 1 and  (message.command[1]).startswith("tgsucks"):
@@ -37,7 +37,7 @@ async def start(bot, message):
         return
     
     await message.reply(
-        f"**Hey {message.from_user.mention},\nIam an Inline Youtube Trimmer.**\n__You can use me only via inline mode.__\n\nExample: `@TrimYtbot Niram | 1:25:1 1:26:6` or `@TrimYtbot Niram | 1800 2000`",
+        f"**HEY {message.from_user.mention},\nI am an Inline Youtube Trimmer Bot by @DK_BOTx .**\n__You can use me only via inline mode.__\n\nExample: `@YouTubeTrimbot vlogger deven | 1:25:1 1:26:6` or `@YouTubeTrimbot vlogger deven |",
         reply_markup=InlineKeyboardMarkup(buttons)
     )
 
@@ -50,10 +50,10 @@ async def help(bot, message):
 async def text_msgs(bot, message):
     buttons = [
             [
-                InlineKeyboardButton('Search Inline', switch_inline_query_current_chat=message.text),
+                InlineKeyboardButton('SEARCH INLINE', switch_inline_query_current_chat=message.text),
             ],
         ]
     await message.reply(
-        "Hey I can work only via inline.",
+        "HEY , I CAN WORK ONLY VIA INLINE.",
         reply_markup=InlineKeyboardMarkup(buttons)
     )
