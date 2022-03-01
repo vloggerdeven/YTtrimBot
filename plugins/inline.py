@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (C) @subinps
+# Copyright (C) @vloggerdeven
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -64,7 +64,7 @@ async def search(client, query):
             InlineQueryResultArticle(
                 title="Usage Guide",
                 description=("How to use me?!"),
-                input_message_content=InputTextMessageContent("Just type Bot username followed by a space and your youtube query and use | or '&t=' or '?t=' to specify trim duration and make sure to separate start and end points with a space.\n\nExample: `@TrimYtbot Niram | 1:25:1 1:26:6` or `@TrimYtbot Niram | 1800 2000`\n\n__Note: You can specify timestamps either in Hour:Minute:Seconds or Minute:Seconds format or in seconds.__"),
+                input_message_content=InputTextMessageContent("Just type Bot username followed by a space and your youtube query and use | or '&t=' or '?t=' to specify trim duration and make sure to separate start and end points with a space.\n\nExample: `@YouTubeTrimbot vlogger deven| 1:25:1 1:26:6` or `@YouTubeTrimbot vlogger deven | 1800 2000`\n\n__Note: You can specify timestamps either in Hour:Minute:Seconds or Minute:Seconds format or in seconds .__"),
                 reply_markup=InlineKeyboardMarkup(get_buttons(start, end, get_time(0), "start", user, "", a_caption))
                 )
             )
