@@ -1,9 +1,11 @@
 # Inline-YouTube-Trim-Bot
  Telegram bot to trim and download youtube videos
 
+## ©DK BOTx
+
 ## Deploy
 You can deploy this bot anywhere.
-Demo - [YouTubeBot](https://telegram.dog/trimytbot)
+CHANNEL - [DK BOTx](https://telegram.dog/dk_botx)
 
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
